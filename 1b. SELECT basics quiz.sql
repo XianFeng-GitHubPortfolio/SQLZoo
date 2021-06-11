@@ -1,9 +1,9 @@
 -- 1. Select the code which produces this table
 
-name        |  population
-Bahrain	   |  1234571
-Swaziland	|  1220000
-Timor-Leste |  1066409
+-- name        |  population
+-- Bahrain	   |  1234571
+-- Swaziland   |  1220000
+-- Timor-Leste |  1066409
 
 SELECT name, population
 FROM world
@@ -16,9 +16,9 @@ SELECT name, population
 FROM world
 WHERE name LIKE "Al%"
 
-Table-E
-Albania	| 3200000
-Algeria	| 32900000
+-- Table-E
+-- Albania	| 3200000
+-- Algeria	| 32900000
 
 
 -- 3. Select the code which shows the countries that end in A or L.
@@ -33,17 +33,17 @@ SELECT name,length(name)
 FROM world
 WHERE length(name)=5 and region='Europe'
 
-name	 | length(name)
-Italy  |	    5
-Malta	 |      5
-Spain	 |      5
+-- name	 | length(name)
+-- Italy     |	  5
+-- Malta	 |      5
+-- Spain	 |      5
 
 
 -- 5. Pick the result you would obtain from this code:
 
 SELECT name, area*2 FROM world WHERE population = 64000
 
-Andorra	| 936
+-- Andorra	| 936
 
 
 -- 6. Select the code that would show the countries with an area larger than 50000 and a population smaller than 10000000.
