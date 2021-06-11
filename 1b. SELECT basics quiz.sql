@@ -1,7 +1,7 @@
 -- 1. Select the code which produces this table
 
 -- name        |  population
--- Bahrain	   |  1234571
+-- Bahrain     |  1234571
 -- Swaziland   |  1220000
 -- Timor-Leste |  1066409
 
@@ -34,7 +34,7 @@ FROM world
 WHERE length(name)=5 and region='Europe'
 
 -- name	 | length(name)
--- Italy     |	  5
+-- Italy     |      5 
 -- Malta	 |      5
 -- Spain	 |      5
 
