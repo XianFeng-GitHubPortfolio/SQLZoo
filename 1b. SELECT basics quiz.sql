@@ -36,7 +36,7 @@ WHERE length(name)=5 and region='Europe'
 -- name      | length(name)
 -- Italy     |      5 
 -- Malta     |      5
--- Spain	 |      5
+-- Spain     |      5
 
 
 -- 5. Pick the result you would obtain from this code:
