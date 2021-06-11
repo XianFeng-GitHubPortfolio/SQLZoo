@@ -33,9 +33,9 @@ SELECT name,length(name)
 FROM world
 WHERE length(name)=5 and region='Europe'
 
--- name	 | length(name)
+-- name      | length(name)
 -- Italy     |      5 
--- Malta	 |      5
+-- Malta     |      5
 -- Spain	 |      5
 
 
